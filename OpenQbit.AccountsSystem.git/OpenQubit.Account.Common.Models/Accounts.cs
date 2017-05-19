@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace OpenQubit.Account.Common.Models
 {
-    class AccountsModel
+    class Account
     {
-        public int AccId { get; set; }
-        public int ParentAccId { get; set; }
-        public string AccName { get; set; }
+        public int Id { get; set; }
+        public int ParentAccountId { get; set; }
+        public string Name { get; set; }
     }
 }

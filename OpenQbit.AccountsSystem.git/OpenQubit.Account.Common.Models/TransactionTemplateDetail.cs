@@ -8,9 +8,9 @@ namespace OpenQubit.Account.Common.Models
 {
     class TransactionTemplateDetail
     {
-        public int TempId { get; set; }
+        public int Id { get; set; }
 
-        public int AccId { get; set; }
+        public int AccountId { get; set; }
 
         public double Credit { get; set; }
 
@@ -18,6 +18,6 @@ namespace OpenQubit.Account.Common.Models
 
         public string Amount { get; set; }
 
-
+        public virtual Account Account { get; set; }
     }
 }

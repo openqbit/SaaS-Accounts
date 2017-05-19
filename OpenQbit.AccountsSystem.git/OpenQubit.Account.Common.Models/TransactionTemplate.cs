@@ -8,9 +8,9 @@ namespace ClassLibOpenQubit.Account.Common.Modelsrary1
 {
     class TransactionTemplate
     {
-        public int TempId { get; set; }
+        public int Id { get; set; }
 
-        public string DocId { get; set; }
+        public string DocumentId { get; set; }
 
 
 

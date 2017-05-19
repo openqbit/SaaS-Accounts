@@ -8,7 +8,7 @@ namespace OpenQubit.Account.Common.Models
 {
     class Customer
     {
-        public int CusId { get; set; }
-        public string CusName { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
