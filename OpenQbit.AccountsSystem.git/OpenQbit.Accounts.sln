@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.Service.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.Test.WebAPIService.Tests", "OpenQbit.Accounts.Test.WebAPIService.Tests\OpenQbit.Accounts.Test.WebAPIService.Tests.csproj", "{48280E12-D9BF-425C-8111-828D1E580090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQubit.Account.Common.Models", "OpenQubit.Account.Common.Models\OpenQubit.Account.Common.Models.csproj", "{D5642681-1A79-4FE3-877B-84688E0D0BB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{48280E12-D9BF-425C-8111-828D1E580090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48280E12-D9BF-425C-8111-828D1E580090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48280E12-D9BF-425C-8111-828D1E580090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5642681-1A79-4FE3-877B-84688E0D0BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5642681-1A79-4FE3-877B-84688E0D0BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5642681-1A79-4FE3-877B-84688E0D0BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5642681-1A79-4FE3-877B-84688E0D0BB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,5 +46,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1EF257D9-782E-4C8E-9DDE-F3436320B45F} = {3726BCED-E240-483E-B92E-870D0F9A05A7}
 		{48280E12-D9BF-425C-8111-828D1E580090} = {E4CD8143-C967-422D-811B-0B5F7C098F82}
+		{D5642681-1A79-4FE3-877B-84688E0D0BB2} = {A2BE16EF-043F-454C-9C11-6F6EF80D0FB1}
 	EndGlobalSection
 EndGlobal
