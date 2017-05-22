@@ -51,11 +51,21 @@
   <ItemGroup>
     <Compile Include="AccountDbContext.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Migrations\201705220611295_DBinit.cs" />
+    <Compile Include="Migrations\201705220611295_DBinit.Designer.cs">
+      <DependentUpon>201705220611295_DBinit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705220630224_AccoutnsModelCusIDadded.cs" />
+    <Compile Include="Migrations\201705220630224_AccoutnsModelCusIDadded.Designer.cs">
+      <DependentUpon>201705220630224_AccoutnsModelCusIDadded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +73,14 @@
       <Project>{28f2d86c-e422-4269-b0d9-49fb1fd35086}</Project>
       <Name>OpenQubit.Account.Common.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201705220611295_DBinit.resx">
+      <DependentUpon>201705220611295_DBinit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705220630224_AccoutnsModelCusIDadded.resx">
+      <DependentUpon>201705220630224_AccoutnsModelCusIDadded.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

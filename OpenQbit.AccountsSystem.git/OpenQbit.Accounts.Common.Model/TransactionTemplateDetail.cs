@@ -12,11 +12,11 @@ namespace OpenQubit.Account.Common.Models
 
         public int AccountId { get; set; }
 
-        public double Credit { get; set; }
+        public string CrDb { get; set; }
 
-        public double Debit { get; set; }
+        //public double Debit { get; set; }
 
-        public string Amount { get; set; }
+        public string AmountExpression { get; set; }
 
         public virtual Account Account { get; set; }
     }
