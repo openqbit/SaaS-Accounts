@@ -10,7 +10,7 @@ using OpenQubit.Account.Common.Models;
 
 namespace OpenQbit.Accounts.DAL.DataAccess
 {
-    class AccountDbContext : DbContext
+    public class AccountDbContext : DbContext
     {
 
 
