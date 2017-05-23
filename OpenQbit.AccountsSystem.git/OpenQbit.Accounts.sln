@@ -19,6 +19,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.Service.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.Test.WebAPIService.Tests", "OpenQbit.Accounts.Test.WebAPIService.Tests\OpenQbit.Accounts.Test.WebAPIService.Tests.csproj", "{48280E12-D9BF-425C-8111-828D1E580090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.DAL.DataAccess", "OpenQbit.Accounts.DAL.DataAccess\OpenQbit.Accounts.DAL.DataAccess.csproj", "{4C5A30C2-7CB6-47A0-9518-4FE3DCAE2EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQubit.Account.Common.Models", "OpenQbit.Accounts.Common.Model\OpenQubit.Account.Common.Models.csproj", "{28F2D86C-E422-4269-B0D9-49FB1FD35086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.BLL.AccountService", "OpenQbit.Accounts.BLL.AccountService\OpenQbit.Accounts.BLL.AccountService.csproj", "{A647AD28-8C97-4D70-A17D-29F69C8CD96C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.BLL.AccountService.Contracts", "OpenQbit.Accounts.BLL.AccountService.Contracts\OpenQbit.Accounts.BLL.AccountService.Contracts.csproj", "{D0524AEA-8A11-4A3E-B660-48C2B6004CB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.DAL.DataAccess.Contracts", "OpenQbit.Accounts.DAL.DataAccess.Contracts\OpenQbit.Accounts.DAL.DataAccess.Contracts.csproj", "{133B9087-5731-4414-936C-35B0E761097E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +43,26 @@ Global
 		{48280E12-D9BF-425C-8111-828D1E580090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48280E12-D9BF-425C-8111-828D1E580090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48280E12-D9BF-425C-8111-828D1E580090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5A30C2-7CB6-47A0-9518-4FE3DCAE2EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5A30C2-7CB6-47A0-9518-4FE3DCAE2EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5A30C2-7CB6-47A0-9518-4FE3DCAE2EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5A30C2-7CB6-47A0-9518-4FE3DCAE2EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F2D86C-E422-4269-B0D9-49FB1FD35086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F2D86C-E422-4269-B0D9-49FB1FD35086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F2D86C-E422-4269-B0D9-49FB1FD35086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F2D86C-E422-4269-B0D9-49FB1FD35086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A647AD28-8C97-4D70-A17D-29F69C8CD96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A647AD28-8C97-4D70-A17D-29F69C8CD96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A647AD28-8C97-4D70-A17D-29F69C8CD96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A647AD28-8C97-4D70-A17D-29F69C8CD96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0524AEA-8A11-4A3E-B660-48C2B6004CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0524AEA-8A11-4A3E-B660-48C2B6004CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0524AEA-8A11-4A3E-B660-48C2B6004CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0524AEA-8A11-4A3E-B660-48C2B6004CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{133B9087-5731-4414-936C-35B0E761097E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133B9087-5731-4414-936C-35B0E761097E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{133B9087-5731-4414-936C-35B0E761097E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{133B9087-5731-4414-936C-35B0E761097E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,5 +70,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1EF257D9-782E-4C8E-9DDE-F3436320B45F} = {3726BCED-E240-483E-B92E-870D0F9A05A7}
 		{48280E12-D9BF-425C-8111-828D1E580090} = {E4CD8143-C967-422D-811B-0B5F7C098F82}
+		{4C5A30C2-7CB6-47A0-9518-4FE3DCAE2EF5} = {577BA2E7-2CAE-4F01-BC6E-F3B3E308D9FC}
+		{28F2D86C-E422-4269-B0D9-49FB1FD35086} = {A2BE16EF-043F-454C-9C11-6F6EF80D0FB1}
+		{A647AD28-8C97-4D70-A17D-29F69C8CD96C} = {DACECC0E-A31D-46CD-B367-86F1CCC082DC}
+		{D0524AEA-8A11-4A3E-B660-48C2B6004CB7} = {DACECC0E-A31D-46CD-B367-86F1CCC082DC}
+		{133B9087-5731-4414-936C-35B0E761097E} = {577BA2E7-2CAE-4F01-BC6E-F3B3E308D9FC}
 	EndGlobalSection
 EndGlobal

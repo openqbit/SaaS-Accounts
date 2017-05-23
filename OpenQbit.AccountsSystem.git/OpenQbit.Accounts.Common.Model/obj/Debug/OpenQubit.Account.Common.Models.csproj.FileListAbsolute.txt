@@ -1,0 +1,4 @@
+C:\Users\STARFLOWER\Source\Repos\SaaS-Accounts4\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\OpenQbit.Accounts.Common.Model.dll
+C:\Users\STARFLOWER\Source\Repos\SaaS-Accounts4\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\OpenQbit.Accounts.Common.Model.pdb
+C:\Users\STARFLOWER\Source\Repos\SaaS-Accounts4\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\obj\Debug\OpenQbit.Accounts.Common.Model.dll
+C:\Users\STARFLOWER\Source\Repos\SaaS-Accounts4\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\obj\Debug\OpenQbit.Accounts.Common.Model.pdb
