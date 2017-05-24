@@ -11,7 +11,7 @@ using System.Linq.Expressions;
 using System.Data.Entity;
 
 using OpenQbit.Accounts.DAL.DataAccess.Contracts;
-
+using OpenQubit.Account.Common.Models;
 
 namespace OpenQbit.Accounts.DAL.DataAccess
 {
@@ -47,6 +47,11 @@ namespace OpenQbit.Accounts.DAL.DataAccess
                 return false;
             }
 
+        }
+
+        public TransactionTemplate Find<T>(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public bool Update<T>(T obj) where T : class
@@ -90,5 +95,9 @@ namespace OpenQbit.Accounts.DAL.DataAccess
             }
         }
 
+        T IRepository.Find<T>(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
