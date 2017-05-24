@@ -12,6 +12,7 @@ using System.Data.Entity;
 
 using OpenQbit.Accounts.DAL.DataAccess.Contracts;
 
+
 namespace OpenQbit.Accounts.DAL.DataAccess
 {
     public class Repository : IRepository
