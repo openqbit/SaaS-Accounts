@@ -14,7 +14,7 @@ namespace OpenQubit.Account.Common.Models
 
         public string Description { get; set; }
         //public int TempId { get; set; }
-
+        
         public string ReferenceTag { get; set; }
 
         public int TransactionTemplateId { get; set; }
