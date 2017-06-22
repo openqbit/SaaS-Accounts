@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OpenQubit.Account.Common.Models
 {
-    public class DocumentType
+    public class Document
     {
         public int Id { get; set; }
 

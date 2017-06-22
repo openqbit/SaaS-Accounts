@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-
-
 using System.Linq;
 using System.Linq.Expressions;
 using System.Data.Entity;
@@ -49,7 +46,7 @@ namespace OpenQbit.Accounts.DAL.DataAccess
 
         }
 
-        public DocumentType FindList<T>(int id)
+        public Document FindList<T>(int id)
         {
             throw new NotImplementedException();
         }

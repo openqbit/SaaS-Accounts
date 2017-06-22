@@ -16,21 +16,21 @@ namespace OpenQbit.Accounts.BLL.AccountService
 
         public bool CreateDocument(string templateName, string description, string documentName)
         {
-            DocumentType newDocument = new DocumentType();
-            return _db.Create<DocumentType>(newDocument);
+            Document newDocument = new Document();
+            return _db.Create<Document>(newDocument);
         }
 
         public bool RemoveDocument(int documentID) {
-            DocumentType newDocument = new DocumentType();
-            return _db.Delete<DocumentType>(newDocument);
+            Document newDocument = new Document();
+            return _db.Delete<Document>(newDocument);
         }
         public bool RemoveDocument(string documentName) {
-            DocumentType newDocumment = new DocumentType();
-            return _db.Delete<DocumentType>(newDocumment);
+            Document newDocumment = new Document();
+            return _db.Delete<Document>(newDocumment);
         }
-        public DocumentType FindDocument(int id) {
-            DocumentType newDocument = new DocumentType();
-            return _db.FindList<DocumentType>(id);
+        public Document FindDocument(int id) {
+            Document newDocument = new Document();
+            return _db.FindList<Document>(id);
         }
     }
 }

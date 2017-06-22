@@ -4,6 +4,14 @@ C:\Users\STARFLOWER\Source\Repos\SaaS-Accounts4\OpenQbit.AccountsSystem.git\Open
 C:\Users\STARFLOWER\Source\Repos\SaaS-Accounts4\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\obj\Debug\OpenQbit.Accounts.Common.Model.pdb
 C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\OpenQbit.Accounts.Common.Model.dll
 C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\OpenQbit.Accounts.Common.Model.pdb
-C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\obj\Debug\OpenQubit.Account.Common.Models.csprojResolveAssemblyReference.cache
 C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\obj\Debug\OpenQbit.Accounts.Common.Model.dll
 C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\obj\Debug\OpenQbit.Accounts.Common.Model.pdb
+C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\chathura buddhika\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
