@@ -21,7 +21,8 @@ namespace OpenQubit.Account.Common.Models
         public string Description { get; set; }
 
         public virtual DocumentType DocumentType { get; set; }
-        
+        public virtual ICollection<TransactionTemplateDetail> TransactionTemplateDetail { get; set; }
+
 
 
     }

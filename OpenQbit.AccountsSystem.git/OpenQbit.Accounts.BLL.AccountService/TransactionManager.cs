@@ -12,9 +12,9 @@ namespace OpenQbit.Accounts.BLL.AccountService
     {
         private DAL.DataAccess.Repository _db = new Repository();
 
-        public bool CreateTemplate(string templateName, string description, string documentName)
+        public bool RecoardTransaction(Transaction newTransaction)
         {
-            Transaction newTransaction = new Transaction();
+          //  Transaction newTransaction = new Transaction();
             return _db.Create<Transaction>(newTransaction);
 
         }

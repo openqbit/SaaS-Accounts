@@ -16,13 +16,7 @@ namespace OpenQbit.Accounts.DAL.DataAccess
 
         public AccountDbContext() : base("Accounts") {
         }
-        //public DbSet<Accounts> Accounts { get; set; }
-        //public DbSet<> Customer { get; set; }
-        //public DbSet<Transaction> Transaction { get; set; }
-        //public DbSet<ItemDetail> ItemDetails { get; set; }
-        //public DbSet<Item> Items { get; set; }
-
-            public DbSet<Account> Accounts { get; set; }
+        public DbSet<Account> Accounts { get; set; }
         public DbSet<Customer> Customer { get; set; }
         public DbSet<Transaction> Transaction{ get; set; }
         public DbSet<TransactionDetail> TransactionDetail { get; set; }

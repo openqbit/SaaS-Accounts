@@ -19,5 +19,6 @@ namespace OpenQubit.Account.Common.Models
         public string AmountExpression { get; set; }
 
         public virtual Account Account { get; set; }
+        public virtual TransactionTemplate TransactionTemplate { get; set; }
     }
 }
