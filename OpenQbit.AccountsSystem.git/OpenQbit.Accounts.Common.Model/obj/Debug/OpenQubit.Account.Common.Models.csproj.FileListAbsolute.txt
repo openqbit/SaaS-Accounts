@@ -2,3 +2,8 @@ C:\Users\STARFLOWER\Source\Repos\SaaS-Accounts4\OpenQbit.AccountsSystem.git\Open
 C:\Users\STARFLOWER\Source\Repos\SaaS-Accounts4\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\OpenQbit.Accounts.Common.Model.pdb
 C:\Users\STARFLOWER\Source\Repos\SaaS-Accounts4\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\obj\Debug\OpenQbit.Accounts.Common.Model.dll
 C:\Users\STARFLOWER\Source\Repos\SaaS-Accounts4\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\obj\Debug\OpenQbit.Accounts.Common.Model.pdb
+C:\Users\Sandun Prasanga\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\OpenQbit.Accounts.Common.Model.dll
+C:\Users\Sandun Prasanga\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\bin\Debug\OpenQbit.Accounts.Common.Model.pdb
+C:\Users\Sandun Prasanga\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\obj\Debug\OpenQubit.Account.Common.Models.csprojResolveAssemblyReference.cache
+C:\Users\Sandun Prasanga\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\obj\Debug\OpenQbit.Accounts.Common.Model.dll
+C:\Users\Sandun Prasanga\Source\Repos\SaaS-Accounts\OpenQbit.AccountsSystem.git\OpenQbit.Accounts.Common.Model\obj\Debug\OpenQbit.Accounts.Common.Model.pdb

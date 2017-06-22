@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EAA9F267-38EF-494B-97E1-F9CF4256868E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OpenQubit.Account.Common.Ioc</RootNamespace>
+    <AssemblyName>OpenQubit.Account.Common.Ioc</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnityResolver.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenQbit.Accounts.BLL.AccountService.Contracts\OpenQbit.Accounts.BLL.AccountService.Contracts.csproj">
+      <Project>{d0524aea-8a11-4a3e-b660-48c2b6004cb7}</Project>
+      <Name>OpenQbit.Accounts.BLL.AccountService.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Accounts.BLL.AccountService\OpenQbit.Accounts.BLL.AccountService.csproj">
+      <Project>{a647ad28-8c97-4d70-a17d-29f69c8cd96c}</Project>
+      <Name>OpenQbit.Accounts.BLL.AccountService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Accounts.Common.Model\OpenQubit.Account.Common.Models.csproj">
+      <Project>{28f2d86c-e422-4269-b0d9-49fb1fd35086}</Project>
+      <Name>OpenQubit.Account.Common.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Accounts.DAL.DataAccess.Contracts\OpenQbit.Accounts.DAL.DataAccess.Contracts.csproj">
+      <Project>{133b9087-5731-4414-936c-35b0e761097e}</Project>
+      <Name>OpenQbit.Accounts.DAL.DataAccess.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Accounts.DAL.DataAccess\OpenQbit.Accounts.DAL.DataAccess.csproj">
+      <Project>{4c5a30c2-7cb6-47a0-9518-4fe3dcae2ef5}</Project>
+      <Name>OpenQbit.Accounts.DAL.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Accounts.Service.WebAPIService\OpenQbit.Accounts.Service.WebAPIService.csproj">
+      <Project>{1ef257d9-782e-4c8e-9dde-f3436320b45f}</Project>
+      <Name>OpenQbit.Accounts.Service.WebAPIService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Accounts.Test.BLL\OpenQbit.Accounts.Test.BLL.csproj">
+      <Project>{cc2616da-3d2c-4543-bf75-f6eab0b567df}</Project>
+      <Name>OpenQbit.Accounts.Test.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Accounts.Test.WebAPIService.Tests\OpenQbit.Accounts.Test.WebAPIService.Tests.csproj">
+      <Project>{48280e12-d9bf-425c-8111-828d1e580090}</Project>
+      <Name>OpenQbit.Accounts.Test.WebAPIService.Tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQubit.Accounts.Common.Utils.Logs\OpenQubit.Accounts.Common.Utils.Logs.csproj">
+      <Project>{8c5b72b4-ecb0-4e01-89c8-e90bf7efd285}</Project>
+      <Name>OpenQubit.Accounts.Common.Utils.Logs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
