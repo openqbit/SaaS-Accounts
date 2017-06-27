@@ -100,9 +100,10 @@ namespace OpenQbit.Accounts.DAL.DataAccess
             }
         }
 
-        T IRepository.Find<T>(int id)
+
+        public T FindBtId<T>(int id) where T : class
         {
-            throw new NotImplementedException();
+            return _db.Set<T>().Find(id);
         }
     }
 }

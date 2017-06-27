@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0524AEA-8A11-4A3E-B660-48C2B6004CB7}</ProjectGuid>
+    <ProjectGuid>{ECA032E0-44C5-428B-A598-598FB419FC0F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpenQbit.Accounts.BLL.AccountService.Contracts</RootNamespace>
-    <AssemblyName>OpenQbit.Accounts.BLL.AccountService.Contracts</AssemblyName>
+    <RootNamespace>OpenQubit.Account.Common.Utils.Logs</RootNamespace>
+    <AssemblyName>OpenQubit.Account.Common.Utils.Logs</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,12 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IAccount.cs" />
-    <Compile Include="ICustomer.cs" />
-    <Compile Include="ICustomerSystem.cs" />
-    <Compile Include="IDocumentType.cs" />
-    <Compile Include="ITransaction.cs" />
-    <Compile Include="ITransactionTemplate.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="ILogger.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

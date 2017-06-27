@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenQbit.Accounts.BLL.AccountService
+namespace OpenQubit.Account.Common.Utils.Logs
 {
-    public class Class1
+    public interface ILogger
     {
+        bool LogError(string err);
     }
 }

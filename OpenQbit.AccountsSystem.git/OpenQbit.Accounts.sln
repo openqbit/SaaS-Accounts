@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Common", "0 Common", "{A2BE16EF-043F-454C-9C11-6F6EF80D0FB1}"
 EndProject
@@ -30,6 +30,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.DAL.DataAccess.Contracts", "OpenQbit.Accounts.DAL.DataAccess.Contracts\OpenQbit.Accounts.DAL.DataAccess.Contracts.csproj", "{133B9087-5731-4414-936C-35B0E761097E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.Test.BLL", "OpenQbit.Accounts.Test.BLL\OpenQbit.Accounts.Test.BLL.csproj", "{CC2616DA-3D2C-4543-BF75-F6EAB0B567DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{7638D887-1C92-4FB8-A9B6-2855DB0CEFF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQubit.Account.Common.Utils.Logs", "OpenQubit.Account.Common.Utils.Logs\OpenQubit.Account.Common.Utils.Logs.csproj", "{ECA032E0-44C5-428B-A598-598FB419FC0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,10 @@ Global
 		{CC2616DA-3D2C-4543-BF75-F6EAB0B567DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC2616DA-3D2C-4543-BF75-F6EAB0B567DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC2616DA-3D2C-4543-BF75-F6EAB0B567DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA032E0-44C5-428B-A598-598FB419FC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA032E0-44C5-428B-A598-598FB419FC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA032E0-44C5-428B-A598-598FB419FC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA032E0-44C5-428B-A598-598FB419FC0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,5 +90,7 @@ Global
 		{D0524AEA-8A11-4A3E-B660-48C2B6004CB7} = {DACECC0E-A31D-46CD-B367-86F1CCC082DC}
 		{133B9087-5731-4414-936C-35B0E761097E} = {577BA2E7-2CAE-4F01-BC6E-F3B3E308D9FC}
 		{CC2616DA-3D2C-4543-BF75-F6EAB0B567DF} = {E4CD8143-C967-422D-811B-0B5F7C098F82}
+		{7638D887-1C92-4FB8-A9B6-2855DB0CEFF2} = {A2BE16EF-043F-454C-9C11-6F6EF80D0FB1}
+		{ECA032E0-44C5-428B-A598-598FB419FC0F} = {7638D887-1C92-4FB8-A9B6-2855DB0CEFF2}
 	EndGlobalSection
 EndGlobal

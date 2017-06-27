@@ -1,4 +1,4 @@
-﻿using OpenQubit.Account.Common.Models;
+﻿using OpenQbit.Account.Common.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
