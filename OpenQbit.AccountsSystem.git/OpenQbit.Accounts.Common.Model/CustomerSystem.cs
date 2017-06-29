@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenQbit.Accounts.Common.Model
+namespace OpenQubit.Account.Common.Models
 {
     public class CustomerSystem
     {
@@ -13,5 +13,7 @@ namespace OpenQbit.Accounts.Common.Model
         public int CustomerId { get; set; }
 
         public virtual Customer Customer { get; set; }
+        public virtual ICollection<Document> Document { get; set; }
+        public virtual ICollection<Account> Account { get; set; }
     }
 }
