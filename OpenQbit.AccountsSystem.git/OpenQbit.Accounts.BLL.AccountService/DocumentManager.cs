@@ -3,34 +3,78 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-using OpenQbit.Accounts.DAL.DataAccess;
+using OpenQbit.Accounts.BLL.AccountService.Contracts;
+using OpenQubit.Account.Common.Models;
+using OpenQbit.Accounts.DAL.DataAccess.Contracts;
+using OpenQubit.Account.Common.Utils.Logs;
+using Microsoft.Practices.Unity;
+using System.Linq.Expressions;
 using OpenQubit.Account.Common.Models;
 
 namespace OpenQbit.Accounts.BLL.AccountService
 {
-    public class DocumentManager
+    public class DocumentManager :IDocumentManager
     {
-        private Repository _db = new Repository();
+        private IRepository _db;
+        private ILogger _logger;
 
-
-        public bool CreateDocument(string templateName, string description, string documentName)
+        [InjectionConstructor]
+        public DocumentManager(IRepository repository, ILogger logger)
         {
-            DocumentType newDocument = new DocumentType();
-            return _db.Create<DocumentType>(newDocument);
+            this._db = repository;
+            this._logger = logger;
         }
 
-        public bool RemoveDocument(int documentID) {
-            DocumentType newDocument = new DocumentType();
-            return _db.Delete<DocumentType>(newDocument);
+
+        public bool Create(DocumentType document)
+        {
+            return _db.Create<DocumentType>(document);
         }
-        public bool RemoveDocument(string documentName) {
-            DocumentType newDocumment = new DocumentType();
-            return _db.Delete<DocumentType>(newDocumment);
+
+
+        public bool Delete(DocumentType document)
+        {
+            return _db.Delete<DocumentType>(document);
         }
-        public DocumentType FindDocument(int id) {
-            DocumentType newDocument = new DocumentType();
-            return _db.FindList<DocumentType>(id);
+
+        public bool DeleteById(int id)
+        {
+            DocumentType document = _db.Find<DocumentType>(A => A.Id == id);
+            return _db.Delete<DocumentType>(document);
         }
+
+
+        public DocumentType Find(Expression<Func<DocumentType, bool>> predicate)
+        {
+            return _db.Find<DocumentType>(predicate);
+        }
+
+        public DocumentType FindById(int id)
+        {
+            return _db.Find<DocumentType>(A => A.Id == id);
+        }
+
+        public List<DocumentType> FindList(Expression<Func<DocumentType, bool>> predicate)
+        {
+            return _db.FindList<DocumentType>(predicate);
+        }
+
+        public List<DocumentType> GetAll()
+        {
+            return _db.GetAll<DocumentType>();
+        }
+
+        public bool Save()
+        {
+            return _db.Save();
+        }
+
+
+        public bool Update(DocumentType document)
+        {
+            return _db.Update<DocumentType>(document);
+        }
+
+        
     }
 }

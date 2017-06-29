@@ -5,16 +5,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OpenQbit.Accounts.BLL.AccountService.Contracts;
 
 namespace OpenQbit.Accounts.BLL.AccountService
 {
-    class TransactionManager
+    class TransactionManager:ITransactionManager
     {
         private DAL.DataAccess.Repository _db = new Repository();
 
-        public bool CreateTemplate(string templateName, string description, string documentName)
+        public bool RecoardTransaction(Transaction newTransaction)
         {
-            Transaction newTransaction = new Transaction();
+          //  Transaction newTransaction = new Transaction();
             return _db.Create<Transaction>(newTransaction);
 
         }

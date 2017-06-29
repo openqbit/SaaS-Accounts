@@ -62,6 +62,7 @@
     <Compile Include="UnityResolver.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,14 +89,6 @@
     <ProjectReference Include="..\OpenQbit.Accounts.Service.WebAPIService\OpenQbit.Accounts.Service.WebAPIService.csproj">
       <Project>{1ef257d9-782e-4c8e-9dde-f3436320b45f}</Project>
       <Name>OpenQbit.Accounts.Service.WebAPIService</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OpenQbit.Accounts.Test.BLL\OpenQbit.Accounts.Test.BLL.csproj">
-      <Project>{cc2616da-3d2c-4543-bf75-f6eab0b567df}</Project>
-      <Name>OpenQbit.Accounts.Test.BLL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OpenQbit.Accounts.Test.WebAPIService.Tests\OpenQbit.Accounts.Test.WebAPIService.Tests.csproj">
-      <Project>{48280e12-d9bf-425c-8111-828d1e580090}</Project>
-      <Name>OpenQbit.Accounts.Test.WebAPIService.Tests</Name>
     </ProjectReference>
     <ProjectReference Include="..\OpenQubit.Accounts.Common.Utils.Logs\OpenQubit.Accounts.Common.Utils.Logs.csproj">
       <Project>{8c5b72b4-ecb0-4e01-89c8-e90bf7efd285}</Project>

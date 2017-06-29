@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 using OpenQbit.Accounts.DAL.DataAccess;
 using OpenQubit.Account.Common.Models;
+using OpenQbit.Accounts.BLL.AccountService.Contracts;
 
 namespace OpenQbit.Accounts.BLL.AccountService
 {
-    public class TemplateManager
+    public class TemplateManager:ITransactionTemplateManager
     {
         private Repository _db = new Repository();
 

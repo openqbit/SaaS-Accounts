@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace OpenQubit.Account.Common.Models
 {
@@ -12,10 +13,16 @@ namespace OpenQubit.Account.Common.Models
 
         public int AccountId { get; set; }
 
-        public double Amount { get; set; }
-        public string CrDb { get; set; }
+        public int TransactionId { get; set; }
+
+        [DefaultValue(0)]
+        public double CrAmount { get; set; }
+
+        [DefaultValue(0)]
+        public double DbAmount { get; set; }
 
         public virtual Account Account { get; set; }
+        public virtual Transaction Transaction { get; set; }
 
     }
 }

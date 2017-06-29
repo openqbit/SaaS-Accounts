@@ -20,5 +20,7 @@ namespace OpenQubit.Account.Common.Models
         public int TransactionTemplateId { get; set; }
 
         public virtual TransactionTemplate TransactionTemplate { get; set; }
+        public virtual ICollection<TransactionDetail> TransactionDetail { get; set; }
+
     }
 }

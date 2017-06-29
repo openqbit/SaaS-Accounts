@@ -49,10 +49,10 @@ namespace OpenQbit.Accounts.DAL.DataAccess
 
         }
 
-        public DocumentType FindList<T>(int id)
-        {
-            throw new NotImplementedException();
-        }
+        //public DocumentType FindList<T>(int id)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         public TransactionTemplate Find<T>(int id)
         {
