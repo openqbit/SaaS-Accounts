@@ -67,13 +67,9 @@
   <ItemGroup>
     <Compile Include="AccountDbContext.cs" />
     <Compile Include="Class1.cs" />
-    <Compile Include="Migrations\201705220611295_DBinit.cs" />
-    <Compile Include="Migrations\201705220611295_DBinit.Designer.cs">
-      <DependentUpon>201705220611295_DBinit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201705220630224_AccoutnsModelCusIDadded.cs" />
-    <Compile Include="Migrations\201705220630224_AccoutnsModelCusIDadded.Designer.cs">
-      <DependentUpon>201705220630224_AccoutnsModelCusIDadded.cs</DependentUpon>
+    <Compile Include="Migrations\201706290931540_DbInit1.cs" />
+    <Compile Include="Migrations\201706290931540_DbInit1.Designer.cs">
+      <DependentUpon>201706290931540_DbInit1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,11 +92,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201705220611295_DBinit.resx">
-      <DependentUpon>201705220611295_DBinit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201705220630224_AccoutnsModelCusIDadded.resx">
-      <DependentUpon>201705220630224_AccoutnsModelCusIDadded.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706290931540_DbInit1.resx">
+      <DependentUpon>201706290931540_DbInit1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

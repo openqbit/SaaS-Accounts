@@ -17,8 +17,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Test", "5 Test", "{E4CD81
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.Service.WebAPIService", "OpenQbit.Accounts.Service.WebAPIService\OpenQbit.Accounts.Service.WebAPIService.csproj", "{1EF257D9-782E-4C8E-9DDE-F3436320B45F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.Test.WebAPIService.Tests", "OpenQbit.Accounts.Test.WebAPIService.Tests\OpenQbit.Accounts.Test.WebAPIService.Tests.csproj", "{48280E12-D9BF-425C-8111-828D1E580090}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.DAL.DataAccess", "OpenQbit.Accounts.DAL.DataAccess\OpenQbit.Accounts.DAL.DataAccess.csproj", "{4C5A30C2-7CB6-47A0-9518-4FE3DCAE2EF5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQubit.Account.Common.Models", "OpenQbit.Accounts.Common.Model\OpenQubit.Account.Common.Models.csproj", "{28F2D86C-E422-4269-B0D9-49FB1FD35086}"
@@ -35,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQubit.Account.Common.Io
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQubit.Account.Common.Utils.Log", "OpenQubit.Account.Common.Utils.Log\OpenQubit.Account.Common.Utils.Log.csproj", "{6F9C8B2F-FA5B-4D1A-BB97-29DF0672988C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Accounts.Test.DAL", "OpenQbit.Accounts.Test.DAL\OpenQbit.Accounts.Test.DAL.csproj", "{28D3E636-8970-4D91-B367-194A4EE271B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,10 +45,6 @@ Global
 		{1EF257D9-782E-4C8E-9DDE-F3436320B45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EF257D9-782E-4C8E-9DDE-F3436320B45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EF257D9-782E-4C8E-9DDE-F3436320B45F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{48280E12-D9BF-425C-8111-828D1E580090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48280E12-D9BF-425C-8111-828D1E580090}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48280E12-D9BF-425C-8111-828D1E580090}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48280E12-D9BF-425C-8111-828D1E580090}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4C5A30C2-7CB6-47A0-9518-4FE3DCAE2EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C5A30C2-7CB6-47A0-9518-4FE3DCAE2EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C5A30C2-7CB6-47A0-9518-4FE3DCAE2EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,13 +77,16 @@ Global
 		{6F9C8B2F-FA5B-4D1A-BB97-29DF0672988C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F9C8B2F-FA5B-4D1A-BB97-29DF0672988C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F9C8B2F-FA5B-4D1A-BB97-29DF0672988C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D3E636-8970-4D91-B367-194A4EE271B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D3E636-8970-4D91-B367-194A4EE271B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D3E636-8970-4D91-B367-194A4EE271B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D3E636-8970-4D91-B367-194A4EE271B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1EF257D9-782E-4C8E-9DDE-F3436320B45F} = {3726BCED-E240-483E-B92E-870D0F9A05A7}
-		{48280E12-D9BF-425C-8111-828D1E580090} = {E4CD8143-C967-422D-811B-0B5F7C098F82}
 		{4C5A30C2-7CB6-47A0-9518-4FE3DCAE2EF5} = {577BA2E7-2CAE-4F01-BC6E-F3B3E308D9FC}
 		{28F2D86C-E422-4269-B0D9-49FB1FD35086} = {A2BE16EF-043F-454C-9C11-6F6EF80D0FB1}
 		{A647AD28-8C97-4D70-A17D-29F69C8CD96C} = {DACECC0E-A31D-46CD-B367-86F1CCC082DC}
@@ -96,5 +95,6 @@ Global
 		{CC2616DA-3D2C-4543-BF75-F6EAB0B567DF} = {E4CD8143-C967-422D-811B-0B5F7C098F82}
 		{14750105-8343-4053-8D07-8BD169A62B1D} = {A2BE16EF-043F-454C-9C11-6F6EF80D0FB1}
 		{6F9C8B2F-FA5B-4D1A-BB97-29DF0672988C} = {A2BE16EF-043F-454C-9C11-6F6EF80D0FB1}
+		{28D3E636-8970-4D91-B367-194A4EE271B7} = {E4CD8143-C967-422D-811B-0B5F7C098F82}
 	EndGlobalSection
 EndGlobal

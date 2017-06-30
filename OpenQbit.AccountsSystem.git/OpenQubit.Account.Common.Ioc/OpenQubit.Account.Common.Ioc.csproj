@@ -57,9 +57,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnityResolver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenQbit.Accounts.BLL.AccountService.Contracts\OpenQbit.Accounts.BLL.AccountService.Contracts.csproj">
+      <Project>{d0524aea-8a11-4a3e-b660-48c2b6004cb7}</Project>
+      <Name>OpenQbit.Accounts.BLL.AccountService.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Accounts.BLL.AccountService\OpenQbit.Accounts.BLL.AccountService.csproj">
+      <Project>{a647ad28-8c97-4d70-a17d-29f69c8cd96c}</Project>
+      <Name>OpenQbit.Accounts.BLL.AccountService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Accounts.DAL.DataAccess.Contracts\OpenQbit.Accounts.DAL.DataAccess.Contracts.csproj">
+      <Project>{133b9087-5731-4414-936c-35b0e761097e}</Project>
+      <Name>OpenQbit.Accounts.DAL.DataAccess.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Accounts.DAL.DataAccess\OpenQbit.Accounts.DAL.DataAccess.csproj">
+      <Project>{4c5a30c2-7cb6-47a0-9518-4fe3dcae2ef5}</Project>
+      <Name>OpenQbit.Accounts.DAL.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQubit.Account.Common.Utils.Log\OpenQubit.Account.Common.Utils.Log.csproj">
+      <Project>{6f9c8b2f-fa5b-4d1a-bb97-29df0672988c}</Project>
+      <Name>OpenQubit.Account.Common.Utils.Log</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
