@@ -13,7 +13,8 @@ namespace OpenQubit.Account.Common.Models
         public string Name { get; set; }
 
         public int CustomerId { get; set; }
-        public virtual Customer Customer { get; set; }
-        public virtual TransactionTemplateDetail TransactionTemplateDetail  { get; set; }
+        public virtual CustomerSystem CustomerSystem { get; set; }
+        public virtual ICollection<TransactionTemplateDetail> TransactionTemplateDetail { get; set; }
+        public virtual ICollection<TransactionDetail> TransactionDetail { get; set; }
     }
 }

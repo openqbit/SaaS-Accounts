@@ -49,7 +49,7 @@ namespace OpenQbit.Accounts.DAL.DataAccess
 
         }
 
-        public DocumentType FindList<T>(int id)
+        public Document FindList<T>(int id)
         {
             throw new NotImplementedException();
         }
@@ -102,7 +102,7 @@ namespace OpenQbit.Accounts.DAL.DataAccess
 
         T IRepository.Find<T>(int id)
         {
-            throw new NotImplementedException();
+            return _db.Set<T>().Find(id);
         }
     }
 }

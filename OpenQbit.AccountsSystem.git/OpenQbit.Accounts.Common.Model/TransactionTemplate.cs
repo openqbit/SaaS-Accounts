@@ -15,12 +15,12 @@ namespace OpenQubit.Account.Common.Models
 
         public string Name { get; set; }
 
-        public int DocumentTypeId { get; set; }
+        public int DocumentId { get; set; }
 
-        
         public string Description { get; set; }
 
-        public virtual DocumentType DocumentType { get; set; }
+        public virtual Document Document { get; set; }
+        public virtual ICollection<Transaction> Transaction { get; set; }
         public virtual ICollection<TransactionTemplateDetail> TransactionTemplateDetail { get; set; }
 
 
