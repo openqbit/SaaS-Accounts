@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OpenQubit.Account.Common.Models;
 
 namespace OpenQbit.Accounts.Common.Model
 {

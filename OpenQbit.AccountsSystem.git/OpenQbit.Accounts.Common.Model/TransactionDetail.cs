@@ -10,7 +10,7 @@ namespace OpenQubit.Account.Common.Models
     public class TransactionDetail
     {
         public int Id { get; set; }
-
+        
         public int AccountId { get; set; }
 
         public int TransactionId { get; set; }
